@@ -820,3 +820,55 @@ The system is built on Streamlit, LangGraph, FastAPI, SQLite database, LangChain
 2025-06-24 15:58:45 - INFO - root - Saved sheet 'Sheet1' to table 'file72_Sheet1'
 2025-06-24 15:59:05 - INFO - root - Session ID: bcf06728-f10c-4dd9-91b1-2cb645649b5b, User Query: who are the top 10 highest paid employees , get me there email Id , Model: gemini-2.0-flash
 2025-06-24 15:59:11 - INFO - root - Session ID: bcf06728-f10c-4dd9-91b1-2cb645649b5b, AI Response: The top 10 highest paid employees are: Kimberly Bond (vellis@gmail.com), John Brown (andrehughes@baker-pham.com), Andre Schwartz (dana74@hotmail.com), Alexandra Wood (dschroeder@yahoo.com), Susan Bailey (michael57@yahoo.com), Jasmine Griffith (washingtontiffany@gmail.com), Danielle Simpson (hjackson@yahoo.com), Dawn Cunningham (btanner@hotmail.com), Lisa Sparks (clee@hotmail.com), and Michaela Rodriguez (curtisbennett@frost-martin.com).
+2025-06-25 00:31:39 - INFO - root - Session ID: a21f63e5-38b7-43fe-a78d-41c2d32bbecd, User Query: hey baby, Model: gemini-2.0-flash
+2025-06-25 00:31:48 - INFO - root - Session ID: a21f63e5-38b7-43fe-a78d-41c2d32bbecd, AI Response: I'm designed to be a helpful and informative AI assistant. How can I help you today? Perhaps you'd like to know about the system's capabilities? It can:
+
+*   Summarize PDFs or provide short notes.
+*   Perform Retrieval-Augmented Generation (RAG) on uploaded PDFs.
+*   Answer questions about uploaded Excel sheets.
+*   Provide general knowledge using the Gemini model.
+2025-06-25 00:32:25 - INFO - root - Session ID: a21f63e5-38b7-43fe-a78d-41c2d32bbecd, User Query: highest paid employee ?, Model: gemini-2.0-flash
+2025-06-25 00:32:27 - INFO - root - Session ID: a21f63e5-38b7-43fe-a78d-41c2d32bbecd, AI Response: To answer your question about the highest-paid employee, I need some data to work with. Is this information contained within an Excel sheet you can upload, or perhaps a PDF document? If you provide me with the relevant data, I can analyze it and give you the answer.
+2025-06-25 17:15:15 - INFO - root - Session ID: d2aa97c9-0212-43e3-9fcb-3c724169ec8a, User Query: hey, Model: gemini-2.0-flash
+2025-06-25 17:15:20 - INFO - root - Session ID: d2aa97c9-0212-43e3-9fcb-3c724169ec8a, AI Response: Hey there! How can I help you today? Are you interested in learning about the system's capabilities, uploading a document, or just having a chat?
+2025-06-25 17:15:34 - INFO - root - Session ID: d2aa97c9-0212-43e3-9fcb-3c724169ec8a, User Query: provide the summary of the given document , Model: gemini-2.0-flash
+2025-06-25 17:15:36 - INFO - root - Session ID: d2aa97c9-0212-43e3-9fcb-3c724169ec8a, AI Response: Okay, I can help with that. Please upload the document you'd like me to summarize. Once it's uploaded, I'll get to work on providing you with a concise summary.
+2025-06-25 17:15:47 - INFO - root - Session ID: d2aa97c9-0212-43e3-9fcb-3c724169ec8a, User Query: done, Model: gemini-2.0-flash
+2025-06-25 17:15:51 - INFO - root - Session ID: d2aa97c9-0212-43e3-9fcb-3c724169ec8a, AI Response: Okay, here's a summary of the provided text:
+
+John Doe is a recent B.Tech in Computer Science graduate from ABC University (June 2023) with a CGPA of 8.5/10. He has experience as a Software Engineering Intern at XYZ Corp, where he developed a full-stack web application and improved API response time. He has also built a personal portfolio website using HTML, CSS, and JavaScript, and a real-time chat application using Socket.io and Express. His skills include programming languages like Python, JavaScript, and C++, web technologies like HTML, CSS, React, and Node.js, and tools like Git, Docker, and VS Code. You can reach him via email at john.doe@example.com, phone at (123) 456-7890, or LinkedIn at linkedin.com/in/johndoe.
+2025-06-25 17:17:08 - INFO - root - Session ID: d2aa97c9-0212-43e3-9fcb-3c724169ec8a, User Query: tell me about projects of Nitya Nand, Model: gemini-2.0-flash
+2025-06-25 17:17:17 - INFO - root - Session ID: d2aa97c9-0212-43e3-9fcb-3c724169ec8a, AI Response: The information about projects of Nitya Nand is not available in the document. The document only contains information about the projects of John Doe: a personal portfolio website and a real-time chat application.
+2025-06-25 17:17:28 - INFO - root - Session ID: d2aa97c9-0212-43e3-9fcb-3c724169ec8a, User Query: now check, Model: gemini-2.0-flash
+2025-06-25 17:17:36 - INFO - root - Session ID: d2aa97c9-0212-43e3-9fcb-3c724169ec8a, AI Response: Okay, I will check the document for the projects of Nitya Nand.
+
+Based on the document, Nitya Nand has worked on the following projects:
+
+*   **SHEmaps - Safety Mapping using ML:** A machine learning-based tool that predicts safety scores of urban areas using crime data and environmental factors.
+*   **Credit Card Fraud Detection:** A machine learning model to identify fraudulent credit card transactions.
+2025-06-25 17:18:01 - INFO - root - Session ID: d2aa97c9-0212-43e3-9fcb-3c724169ec8a, User Query: summarie the document , Model: gemini-2.0-flash
+2025-06-25 17:18:04 - INFO - root - Session ID: d2aa97c9-0212-43e3-9fcb-3c724169ec8a, AI Response: Nitya Nand is a Computer Science Engineering student at Netaji Subhas University of Technology (2023-2027), with a CGPA of 7.4. He has a background in C++, C, Java, Python, Machine Learning, JavaScript, React, MongoDB, Solidity, and MySQL. Nitya was a finalist in a Hackathon at IIT Delhi. His projects include SHEmaps, a safety mapping tool using ML, and a Credit Card Fraud Detection model. He has academic achievements like being a Top 25 Finalist in the SBI Youth College Ideathon 2025 and securing 3rd position in the NSUT Ideation Competition. He is also involved in extracurricular activities as a Core Member of Crescendo (The Music Society of NSUT) and the DSA & Web Dev Department Lead at The Debugging Society.
+2025-06-25 17:18:32 - INFO - root - Session ID: d2aa97c9-0212-43e3-9fcb-3c724169ec8a, User Query: do you think he is lying , Model: gemini-2.0-flash
+2025-06-25 17:18:44 - INFO - root - Session ID: d2aa97c9-0212-43e3-9fcb-3c724169ec8a, AI Response: As an AI, I am not capable of determining whether someone is lying. I can only process and analyze the information that is provided to me. Evaluating the truthfulness of a statement requires understanding context, body language, and other factors that I cannot access.
+2025-07-04 13:08:02 - INFO - root - Saved sheet 'Sheet1' to table 'file76_Sheet1'
+2025-07-04 13:08:45 - INFO - root - Session ID: 263193b0-2781-48b3-b733-676ae6d0d2ff, User Query: status for mothers , Model: gemini-2.0-flash
+2025-07-04 13:08:50 - INFO - root - Session ID: 263193b0-2781-48b3-b733-676ae6d0d2ff, AI Response: The SQL query `SELECT * FROM file76_Sheet1 LIMIT 10` retrieves the first 10 rows from the table `file76_Sheet1`.  The question asks for the "status for mothers".  Based on the limited data provided, there is no explicit information about mothers. The columns seem to describe properties and usage of something (likely a food product) related to health conditions like diabetes and cholesterol.  Therefore, it's impossible to answer the question about the status for mothers based on this data.
+2025-07-04 13:09:16 - INFO - root - Session ID: 263193b0-2781-48b3-b733-676ae6d0d2ff, User Query: content claim about PCOS/PCOD, Model: gemini-2.0-flash
+2025-07-04 13:09:20 - INFO - root - Session ID: 263193b0-2781-48b3-b733-676ae6d0d2ff, AI Response: Based on the provided data, the content claims about PCOS/PCOD (likely represented by "Lifestyle disorder" in the first column) include:
+
+*   **Beta-glucan - Helps reduces cholesterol**
+*   **Rich in soluble fiber**
+*   **Supports heart health**
+2025-07-04 13:09:49 - INFO - root - Session ID: 263193b0-2781-48b3-b733-676ae6d0d2ff, User Query: content claim for weight watchers , Model: gemini-2.0-flash
+2025-07-04 13:09:53 - INFO - root - Session ID: 263193b0-2781-48b3-b733-676ae6d0d2ff, AI Response: Based on the provided data, here are some content claims related to weight watchers that can be inferred:
+
+*   **Helps to slow the Digestion & delays glucose response:** This suggests the product can aid in weight management by controlling blood sugar levels.
+*   **Supports glucose management:** Similar to the above, this indicates a benefit for blood sugar control, which is often relevant for weight management.
+*   **Safe, nutritious daily meal option:** This implies the product can be used as part of a weight loss or maintenance plan.
+*   **Sustained energy:** This suggests the product can provide energy without causing rapid blood sugar spikes, which is beneficial for weight management.
+*   **Rich in soluble fiber:** Fiber can promote satiety and help with weight management.
+*   **Supports heart health:** While not directly related to weight loss, heart health is often a concern for individuals managing their weight.
+2025-07-04 13:10:21 - INFO - root - Session ID: 263193b0-2781-48b3-b733-676ae6d0d2ff, User Query: what are the different cohorts present , Model: gemini-2.0-flash
+2025-07-04 13:10:24 - INFO - root - Session ID: 263193b0-2781-48b3-b733-676ae6d0d2ff, AI Response: The SQL query failed because the table `file76_Sheet1` does not have a column named `Department`.  Therefore, I cannot determine the different cohorts present using this query. I need to know the correct column name that represents cohorts in the table.
+2025-07-04 13:10:45 - INFO - root - Session ID: 263193b0-2781-48b3-b733-676ae6d0d2ff, User Query: region and triggers of oats, Model: gemini-2.0-flash
+2025-07-04 13:10:49 - INFO - root - Session ID: 263193b0-2781-48b3-b733-676ae6d0d2ff, AI Response: Based on the provided data, oats are triggered by "Diabetic Patients" and "Lifestyle disorder". The regions associated with oats seem to be related to health benefits such as "Rich in beta-glucan fiber", "helps to slow the Digestion & delays glucose response", "Supports glucose management", "Safe, nutritious daily meal option", "Sustained energy", "Beta-glucan - Helps reduces cholesterol", "Rich in soluble fiber", and "Supports heart health".
